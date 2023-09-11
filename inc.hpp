@@ -26,6 +26,7 @@
 # include <ctype.h>
 # include <time.h>
 # include <unistd.h>
+#include <deque>
 #include <iostream>
 #include <string>
 #include <vector>

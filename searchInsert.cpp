@@ -5,17 +5,18 @@ int searchInsert(vector<int>& nums, int target) {
     if (nums.empty())
         return 0;
     
-    std::vector<int>::iterator it = nums.begin();
-
-    for (; it != nums.end() and *it <= target; it++) {}
-
-    if (it == nums.end())
-        return static_cast<int>(std::distance(nums.begin(), nums.end()));
-    else if (*it == target)
-        return static_cast<int>(std::distance(nums.begin(), it));
-
-    return static_cast<int>(std::distance(nums.begin(), it));
-    
+    // std::vector<int>::iterator it = nums.begin();
+    int i = 0;
+    for (; i < nums.size() and nums[i] <= target;i++) {
+    }
+    // cout << "check i " << i << endl;
+    if (i)
+        i -= nums[i-1] == target ? 1 : 0;
+    if (i == nums.size())
+        return nums.size();
+    if (nums[i] == target and i == 0)
+        return 0;
+    return i;
 }
 
 // int searchInsert(vector<int>& nums, int target) {
@@ -49,5 +50,5 @@ int main() {
     ret.push_back(6);
 
 
-    std::cout << ": " << searchInsert(ret, 1) << endl;
+    std::cout << ": " << searchInsert(ret,0) << endl;
 }
