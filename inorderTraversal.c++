@@ -38,18 +38,19 @@ tl *new_node(int val, tl *left, tl *right)
 
 
 */
-tl *init( int val )
-{
-    tl *root;
 
-
-
+void Traversal(std::vector<int> &res, tl *root, int level) {
+    if (!root)
+        return ;
+    Traversal(res, root->left, level + 1);
+    Traversal(res, root->right, level + 1);
+    res.push_back(root->val);
 }
 
-
 vector<int> inorderTraversal(TreeNode* root) {
-    
-    
+    std::vector<int> res;
+    Traversal(res, root, 0);
+    return res;
 }
 
 

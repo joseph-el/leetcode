@@ -102,21 +102,18 @@ ___________
 
 */
 
-int countCombinations(int n) {
-    deque<int> dq;
-
-    dq.push_back(1);
-    dq.push_back(1);
-
-    for (int i = 2; i <= n; ++i) {
-        int next = dq.back() + dq.front();
-        dq.push_back(next);
-        if (dq.size() > 2) {
-            dq.pop_front();
-        }
-    }
-    return dq.back();
-}
+/**
+ * 
+ *      1 1 1 1
+ *      
+ *  [1 1]
+ *  res = 2
+ * [1 1 2]
+ * res = 3
+ * [1 1 2 3]
+ *      
+ * 
+*/
 
 int climbStairs(int n) {
     deque<int> dq;
