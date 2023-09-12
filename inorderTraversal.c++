@@ -1,4 +1,4 @@
-# include "inc.hpp"
+# include "includes/leetcode.hpp"
 
 
 struct TreeNode {
@@ -13,18 +13,6 @@ struct TreeNode {
 };
 
 typedef struct TreeNode tl;
-
-tl *new_node(int val, tl *left, tl *right)
-{
-    tl *node;
-    node = new tl;
-    if (!node)
-        return nullptr;
-    node->val = val;
-    node->left = left;
-    node->right = right;
-    return node;
-}
 
 
 /*
@@ -53,10 +41,5 @@ vector<int> inorderTraversal(TreeNode* root) {
     return res;
 }
 
-
-int main() {
-
-
-}
 
 

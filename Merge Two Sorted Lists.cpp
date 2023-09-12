@@ -1,4 +1,4 @@
-# include "inc.hpp"
+# include "includes/leetcode.hpp"
 
 struct ListNode {
       int val;
@@ -7,7 +7,6 @@ struct ListNode {
       ListNode(int x) : val(x), next(nullptr) {}
       ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
-
 
 int get_min(ListNode *head) {
     if (!head)

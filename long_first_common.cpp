@@ -1,5 +1,4 @@
-# include "inc.hpp"
-
+# include "includes/leetcode.hpp"
 
 
 string getPrefix(std::string s1, std::string s2) {
@@ -7,16 +6,13 @@ string getPrefix(std::string s1, std::string s2) {
     std::string::iterator it2 = s2.begin();
     int                   x   = 1;
 
-//  if (s2.substr(0, x) ==  s1.substr(0, x) )
     if (s1.empty() or s2.empty())
         return ("");
-
 
     while (*it1 == *it2 and ( it2 != s2.end() and it1 != s1.end()) ) {
         it2++;
         it1++;
     }
-
     return (s1.substr(0, std::distance(s1.begin(), it1)));
 }
 
@@ -26,16 +22,11 @@ string longestCommonPrefix(vector<string>& strs) {
         return "";
     if (strs.size() == 1)
         return strs[0];
-
-
-    
     std::string prefix = getPrefix(strs[0], strs[1]);
     if (prefix.empty())
         return ("");
     // cout << "check prefix = " << prefix << endl;
     std::vector<string>::iterator it = strs.begin();
-    
-    
     it += 2;
     for (; it != strs.end() ; it++)
     {

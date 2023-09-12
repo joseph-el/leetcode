@@ -1,4 +1,4 @@
-# include "inc.hpp"
+# include "includes/leetcode.hpp"
 
 int toInt(string binary) {
     int res = 0;

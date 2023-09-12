@@ -26,8 +26,10 @@ public:
                             (*it == 'C') * 5 + \
                             (*it == 'D') * 6 + \
                             (*it == 'M') * 7;
+            
             std::cout << "check find >" << find << std::endl;
             std::cout << "check it >" << *it << std::endl;
+
             switch (find) {
                 case  1 : {
                     if (it + 1 != s.end() and strchr("VX", *(it + 1))) {
@@ -94,11 +96,6 @@ public:
 // IV + IX
 // XL + XC
 // CD + CM
-
-
-
-
-
 
 int main()
 {

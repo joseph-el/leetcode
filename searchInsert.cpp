@@ -1,14 +1,12 @@
-# include "inc.hpp"
+# include "includes/leetcode.hpp"
 
 
 int searchInsert(vector<int>& nums, int target) {
     if (nums.empty())
         return 0;
     
-    // std::vector<int>::iterator it = nums.begin();
     int i = 0;
-    for (; i < nums.size() and nums[i] <= target;i++) {
-    }
+    for (; i < nums.size() and nums[i] <= target;i++) {}
     // cout << "check i " << i << endl;
     if (i)
         i -= nums[i-1] == target ? 1 : 0;
@@ -18,26 +16,6 @@ int searchInsert(vector<int>& nums, int target) {
         return 0;
     return i;
 }
-
-// int searchInsert(vector<int>& nums, int target) {
-//     if (nums.empty())
-//         return 0;
-    
-//     std::vector<int>::iterator it = nums.end();
-//     it --;
-//     for (;  *it >= target and it != nums.begin() ;it--) {}
-
-    
-//     6 
-//     [1 2 3 4 5 8 99]
-
-
-//     if (*it != target) 
-//         static_cast<int>(std::distance(nums.begin(), it)) + 1 ;
-    
-
-//     return static_cast<int>(std::distance(nums.begin(), it));
-// }
 
 int main() {
 

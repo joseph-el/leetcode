@@ -1,11 +1,5 @@
-# include "inc.hpp"
+# include "includes/leetcode.hpp"
 #include <vector>
-// class Solution {
-// public:
-//     int removeDuplicates(vector<int>& nums) {
-        
-//     }
-// };
 
 int removeDuplicates(vector<int>& nums) {
     
@@ -25,7 +19,6 @@ int removeDuplicates(vector<int>& nums) {
             actual = *it++;
         }
     }
-
     return static_cast<int>(std::distance(nums.begin(), nums.end())) ;    
 }
 

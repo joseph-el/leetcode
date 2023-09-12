@@ -1,5 +1,5 @@
 
-#include "inc.hpp"
+# include "includes/leetcode.hpp"
 
 string getPrefix(std::string s1, std::string s2) {
     std::string::iterator it1 = s1.begin();

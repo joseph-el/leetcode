@@ -1,4 +1,4 @@
-# include "inc.hpp"
+# include "includes/leetcode.hpp"
 
 
 // solution one
@@ -19,15 +19,6 @@ vector<int> plusOne___(vector<int>& digits) {
         ret.push_back(nums % 10); 
         nums /= 10;
     }
-    // std::vector<int> convert;
-    // std::vector<int>::iterator cn = ret.end();
-    // cn--;
-    // for (; true ; cn--){
-    //     convert.push_back(*cn);
-    //     if (cn == ret.begin())
-    //         break;
-    // }
-    // ret.clear();
     return ret;
 }
 
@@ -36,17 +27,11 @@ vector<int> plusOne(vector<int>& digits) {
     if (digits.empty())
         throw "else";
 
-    // "2 0 9 9"
-    // 0 rember bool if true add one and set remeber
-
     std::vector<int> ret;
     std::vector<int>::iterator it = digits.end();
     it--;
     bool rem = (*it == 9) ? true : false;
     int  num = rem ? 0 : *it + 1;
-
-    // {9,8,7,6,5,4,3,2,1,0};
-
     for (; it != digits.begin() ;) {
         ret.push_back(num); //    100
         it--;

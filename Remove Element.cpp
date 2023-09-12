@@ -1,5 +1,4 @@
-# include "inc.hpp"
-
+# include "includes/leetcode.hpp"
 
 int removeElement(vector<int>& nums, int val) {
 

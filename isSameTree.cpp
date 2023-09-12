@@ -1,4 +1,4 @@
-# include "inc.hpp"
+# include "includes/leetcode.hpp"
 
 struct TreeNode {
      int val;
@@ -65,10 +65,6 @@ int main()
     root2->right = NULL;
     root2->left->left = NULL;
     root2->left->right = node5;
-
-
-
-
 
 
 if (isSameTree__(root1, root2))
