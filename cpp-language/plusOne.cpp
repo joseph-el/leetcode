@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 
 // solution one
@@ -60,37 +60,37 @@ vector<int> plusOne(vector<int>& digits) {
 }
 
 
-int main() {
+// int main() {
 
-    vector<int> ret;
+//     vector<int> ret;
 
-    // ret.push_back(1);
-    // ret.push_back(9);
-    // ret.push_back(9);
+//     // ret.push_back(1);
+//     // ret.push_back(9);
+//     // ret.push_back(9);
 
-    // array<int, 39> arr = {7,2,8,5,0,9,1,2,9,5,3,6,6,7,3,2,8,4,3,7,9,5,7,7,4,7,4,9,4,7,0,1,1,1,7,4,0,0,6};
-    array<int, 10> arr = {9,8,7,6,5,4,3,2,1,0};
-    // array<int, 4> arr = {2,0,9,9};
+//     // array<int, 39> arr = {7,2,8,5,0,9,1,2,9,5,3,6,6,7,3,2,8,4,3,7,9,5,7,7,4,7,4,9,4,7,0,1,1,1,7,4,0,0,6};
+//     array<int, 10> arr = {9,8,7,6,5,4,3,2,1,0};
+//     // array<int, 4> arr = {2,0,9,9};
 
-    for (size_t i = 0; i < arr.size(); i++)
-    {
-        ret.push_back(arr[i]);
-        // cout << "check : [" << ret[i] << "]" << endl; 
-    }
+//     for (size_t i = 0; i < arr.size(); i++)
+//     {
+//         ret.push_back(arr[i]);
+//         // cout << "check : [" << ret[i] << "]" << endl; 
+//     }
     
-    std::vector<int>::iterator it = ret.begin();
+//     std::vector<int>::iterator it = ret.begin();
 
-    for(;it != ret.end(); it++) {
-        cout << "[" << *it << "]";
-    }
-    cout << endl;
+//     for(;it != ret.end(); it++) {
+//         cout << "[" << *it << "]";
+//     }
+//     cout << endl;
 
-    vector<int> ii = plusOne(ret);
-    it = ii.begin();
+//     vector<int> ii = plusOne(ret);
+//     it = ii.begin();
 
-    for (; it != ii.end(); it++){
-        cout << "[" << *it << "]";
-    }
-    cout << endl;
+//     for (; it != ii.end(); it++){
+//         cout << "[" << *it << "]";
+//     }
+//     cout << endl;
     
-}
+// }

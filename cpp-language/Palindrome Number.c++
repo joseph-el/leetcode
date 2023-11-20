@@ -20,15 +20,15 @@ public:
 };
 
 
-int main()
-{
-    Solution ret;
+// int main()
+// {
+//     Solution ret;
 
-    std::cout << (ret.isPalindrome(121) ? "true" : "false") << std::endl;
+//     std::cout << (ret.isPalindrome(121) ? "true" : "false") << std::endl;
 
 
 
-    // int x  = 8;
-    // // x/= 10;
-    // std::cout << x % 10;
-}
+//     // int x  = 8;
+//     // // x/= 10;
+//     // std::cout << x % 10;
+// }

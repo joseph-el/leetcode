@@ -1,11 +1,11 @@
 
+#include "leetcode.h"
+
  struct ListNode {
      int val;
      struct ListNode *next;
  };
 
- # include <stdlib.h>
- # include <stdio.h>
 
 typedef  struct ListNode t_l;
 
@@ -63,26 +63,26 @@ void print_node(t_l *head) {
     }
 }
 
-int main()
-{
+// int main()
+// {
 
-    t_l *ss = NULL;
-
-
-        add_back(&ss, new_node(1));
-        add_back(&ss, new_node(1));
-        add_back(&ss, new_node(1));
-        add_back(&ss, new_node(2));
-        add_back(&ss, new_node(2));
-        add_back(&ss, new_node(5));
-        add_back(&ss, new_node(7));
-        add_back(&ss, new_node(9));
+//     t_l *ss = NULL;
 
 
+//         add_back(&ss, new_node(1));
+//         add_back(&ss, new_node(1));
+//         add_back(&ss, new_node(1));
+//         add_back(&ss, new_node(2));
+//         add_back(&ss, new_node(2));
+//         add_back(&ss, new_node(5));
+//         add_back(&ss, new_node(7));
+//         add_back(&ss, new_node(9));
 
-    t_l *res = deleteDuplicates(ss);
-
-    print_node(res);
 
 
-}
+//     t_l *res = deleteDuplicates(ss);
+
+//     print_node(res);
+
+
+// }

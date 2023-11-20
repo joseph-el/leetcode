@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 
 string getPrefix(std::string s1, std::string s2) {
@@ -37,20 +37,20 @@ string longestCommonPrefix(vector<string>& strs) {
     return prefix;
 }
 
-int main ( void ) 
-{   
-    std::vector<string> ret;
+// int main ( void ) 
+// {   
+//     std::vector<string> ret;
 
-    ret.push_back("flower");
-    ret.push_back("flower");
-    ret.push_back("flower");
-    ret.push_back("flower");
-// ","","
-    // ret.push_back("flower");
-    // ret.push_back("flow");
-    // ret.push_back("flight");
-    // ret.push_back("flight");
+//     ret.push_back("flower");
+//     ret.push_back("flower");
+//     ret.push_back("flower");
+//     ret.push_back("flower");
+// // ","","
+//     // ret.push_back("flower");
+//     // ret.push_back("flow");
+//     // ret.push_back("flight");
+//     // ret.push_back("flight");
 
 
-    std::cout << "The result : " << longestCommonPrefix(ret) << endl;
-}
+//     std::cout << "The result : " << longestCommonPrefix(ret) << endl;
+// }

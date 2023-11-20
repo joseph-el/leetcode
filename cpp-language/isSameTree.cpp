@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 struct TreeNode {
      int val;
@@ -45,35 +45,35 @@ bool isSameTree__(TreeNode* p, TreeNode* q) {
 */
 
 
-int main() 
-{
-    TreeNode* root1 = new TreeNode(10);
-    TreeNode* root2 = new TreeNode(10);
+// int main() 
+// {
+//     TreeNode* root1 = new TreeNode(10);
+//     TreeNode* root2 = new TreeNode(10);
 
-    tl* node2 = new tl(5); 
-    tl* node3 = new tl(15);
-
-
-    tl* node4 = new tl(5); 
-    tl* node5 = new tl(15); 
-    tl* node6 = new tl(1); 
-
-    root1->left = node2;
-    root1->right = node3;
-
-    root2->left = node4;
-    root2->right = NULL;
-    root2->left->left = NULL;
-    root2->left->right = node5;
+//     tl* node2 = new tl(5); 
+//     tl* node3 = new tl(15);
 
 
-if (isSameTree__(root1, root2))
-    cout << "TRUE\n";
-else
-    cout << "FALSE\n";
+//     tl* node4 = new tl(5); 
+//     tl* node5 = new tl(15); 
+//     tl* node6 = new tl(1); 
+
+//     root1->left = node2;
+//     root1->right = node3;
+
+//     root2->left = node4;
+//     root2->right = NULL;
+//     root2->left->left = NULL;
+//     root2->left->right = node5;
 
 
-}
+// if (isSameTree__(root1, root2))
+//     cout << "TRUE\n";
+// else
+//     cout << "FALSE\n";
+
+
+// }
 
 
 

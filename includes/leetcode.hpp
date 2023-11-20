@@ -1,4 +1,5 @@
-# pragma once
+#ifndef __LEET_HPP__
+#define __LEET_HPP__
 
 # include <string>
 # include <iomanip>
@@ -14,23 +15,18 @@
 # include <iostream>
 # include <vector>
 # include <algorithm>
-# include <unistd.h>
-# include <limits.h>
 # include <iterator>
-# include <limits.h>
-# include <pthread.h>
 # include <array>
-# include <stdio.h>
-# include <stdlib.h>
-# include <string.h>
-# include <math.h>
-# include <ctype.h>
-# include <time.h>
-# include <unistd.h>
 # include <deque>
 # include <iostream>
 # include <string>
 # include <vector>
 # include <iterator>
 
+extern "C" {
+    #include "leetcode.h"
+}
+
 using namespace std;
+
+#endif

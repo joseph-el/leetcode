@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 
 int searchInsert(vector<int>& nums, int target) {
@@ -17,16 +17,16 @@ int searchInsert(vector<int>& nums, int target) {
     return i;
 }
 
-int main() {
+// int main() {
 
-    vector<int> ret;
-
-
-    ret.push_back(1);
-    ret.push_back(3);
-    ret.push_back(5);
-    ret.push_back(6);
+//     vector<int> ret;
 
 
-    std::cout << ": " << searchInsert(ret,0) << endl;
-}
+//     ret.push_back(1);
+//     ret.push_back(3);
+//     ret.push_back(5);
+//     ret.push_back(6);
+
+
+//     std::cout << ": " << searchInsert(ret,0) << endl;
+// }

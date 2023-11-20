@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 
 struct ListNode {
@@ -109,26 +109,26 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
 
 
-int main() {
+// int main() {
 
-    ListNode *list = NULL;
-    ListNode *list2 = NULL;
-
-
-    for (int i = 9; i >= 7; i--)
-    {
-        list = new ListNode(i, list);
-        list2 = new ListNode(i, list2);
-
-    }
-
-    print_node(list);
-    print_node(list2);
-
-    ListNode *ppp = addTwoNumbers(list, list2);
-
-    print_node(ppp);
+//     ListNode *list = NULL;
+//     ListNode *list2 = NULL;
 
 
+//     for (int i = 9; i >= 7; i--)
+//     {
+//         list = new ListNode(i, list);
+//         list2 = new ListNode(i, list2);
 
-}
+//     }
+
+//     print_node(list);
+//     print_node(list2);
+
+//     ListNode *ppp = addTwoNumbers(list, list2);
+
+//     print_node(ppp);
+
+
+
+// }

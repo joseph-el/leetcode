@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 
 
@@ -133,7 +133,7 @@ int climbStairs(int n) {
 
 
 
-int main ()
-{
-    cout << climbStairs(10) << endl;
-}
+// int main ()
+// {
+//     cout << climbStairs(10) << endl;
+// }

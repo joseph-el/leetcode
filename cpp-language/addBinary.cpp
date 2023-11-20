@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 int toInt(string binary) {
     int res = 0;
@@ -109,10 +109,10 @@ string addBinary(string a, string b) {
 }
 
 
-int main() {
-    // cout << "101010\n";
-    // cout << toInt("101010") << endl;
+// int main() {
+//     // cout << "101010\n";
+//     // cout << toInt("101010") << endl;
 
     
-    cout << addBinary("0", "0") << endl;
-}
+//     cout << addBinary("0", "0") << endl;
+// }

@@ -1,7 +1,7 @@
 # include <iostream>
 
 
-int main()
+int _switch_()
 {
     int x = 9;
 

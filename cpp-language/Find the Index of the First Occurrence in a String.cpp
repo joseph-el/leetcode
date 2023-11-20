@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 
 
@@ -14,9 +14,4 @@ int i = 0;
     }
 
     return i;
-}
-
-
-int main () {
-
 }

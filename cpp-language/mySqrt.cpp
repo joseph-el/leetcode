@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 int mySqrt(int x) {
 
@@ -11,9 +11,9 @@ int mySqrt(int x) {
     return i - 1;
 }
 
-int main() {
+// int main() {
 
 
-    cout << mySqrt(2147483647) << endl;
+//     cout << mySqrt(2147483647) << endl;
 
-}
+// }

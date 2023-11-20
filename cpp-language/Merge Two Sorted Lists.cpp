@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 struct ListNode {
       int val;
@@ -142,20 +142,20 @@ void print_node(ListNode *head) {
         
 // }
 
-int main ()
-{
-    ListNode *head = NULL;
+// int main ()
+// {
+//     ListNode *head = NULL;
 
-    add_back(&head, new_node(2));
-    add_back(&head, new_node(22));
-    add_back(&head, new_node(44));
-    add_back(&head, new_node(5));
-    add_back(&head, new_node(88));
-    add_back(&head, new_node(0));
-    add_back(&head, new_node(1));
+//     add_back(&head, new_node(2));
+//     add_back(&head, new_node(22));
+//     add_back(&head, new_node(44));
+//     add_back(&head, new_node(5));
+//     add_back(&head, new_node(88));
+//     add_back(&head, new_node(0));
+//     add_back(&head, new_node(1));
 
-    // print_node(head);
+//     // print_node(head);
 
-    ListNode *sorting = sortList(head);
-    print_node(head);
-}
+//     ListNode *sorting = sortList(head);
+//     print_node(head);
+// }

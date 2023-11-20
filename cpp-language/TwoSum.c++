@@ -28,26 +28,26 @@ public:
 };
 
 
-int main( void ) {
+// int main( void ) {
 
-Solution ret;
+// Solution ret;
 
-vector<int> ss;
-// 2,7,11,15]
-// [3,2,4], target = 6
-ss.push_back(3);
-ss.push_back(2);
-ss.push_back(4);
-// ss.push_back(15);
-// ss.push_back(88);
+// vector<int> ss;
+// // 2,7,11,15]
+// // [3,2,4], target = 6
+// ss.push_back(3);
+// ss.push_back(2);
+// ss.push_back(4);
+// // ss.push_back(15);
+// // ss.push_back(88);
 
-try {
-    std::vector<int> result = ret.twoSum(ss, 6);
-    std::vector<int>::iterator it = result.begin();
-    std::cout << "[ " << *it << ", " << *++it << "]" << std::endl;
-}
-catch (std::exception &e) {
-    cout << e.what() << endl;
-}
+// try {
+//     std::vector<int> result = ret.twoSum(ss, 6);
+//     std::vector<int>::iterator it = result.begin();
+//     std::cout << "[ " << *it << ", " << *++it << "]" << std::endl;
+// }
+// catch (std::exception &e) {
+//     cout << e.what() << endl;
+// }
 
-}
+// }

@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 int lengthOfLastWord(string s) {
     if(s.empty())
@@ -20,8 +20,8 @@ int lengthOfLastWord(string s) {
     return s.substr(std::distance(s.begin(), it1), abs(distance(s.begin(), it) - distance(s.begin(), it1)) + 1).length();
 }
 
-int main() {
-    string s("hello");
+// int main() {
+//     string s("hello");
 
-    cout << "check lenght : " << lengthOfLastWord(s) << endl;
-}
+//     cout << "check lenght : " << lengthOfLastWord(s) << endl;
+// }

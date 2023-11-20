@@ -19,7 +19,6 @@ class Solution {
             }
 
         }
-
         set_.0 += set_.1
         return set_.0 % 2 == 0
     }

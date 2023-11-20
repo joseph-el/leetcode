@@ -1,1 +1,8 @@
-.a.out
+.vscode/*
+.DS_STORE
+*.o
+*.out
+a.out
+*.a
+leetcode_exec
+*.dSYM

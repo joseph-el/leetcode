@@ -1,4 +1,4 @@
-# include "includes/leetcode.hpp"
+# include "leetcode.hpp"
 
 
 void findLen(vector< vector<char> >& matrix, int &len, int x, int y)
@@ -12,10 +12,10 @@ void findLen(vector< vector<char> >& matrix, int &len, int x, int y)
         return findLen(matrix, len, x + 1, 0);
     }
 
-    if ()
-    {
+    // if ()
+    // {
         
-    }
+    // }
 
 
 
@@ -33,19 +33,19 @@ void findLen(vector< vector<char> >& matrix, int &len, int x, int y)
 //     return len ;
 // }
 
-int main(int ac, char **argv)
-{
-    vector< vector<char> > ret;
+// int main(int ac, char **argv)
+// {
+//     vector< vector<char> > ret;
 
-    vector<char> s1 = {'1' , '1' , '0', '0'};
-    vector<char> s2 = {'1' , '1' , '0', '1'};
-    vector<char> s3 = {'1' , '1' , '0', '1'};
-    vector<char> s4 = {'1' , '1' , '1', '1'};
+//     vector<char> s1 = {'1' , '1' , '0', '0'};
+//     vector<char> s2 = {'1' , '1' , '0', '1'};
+//     vector<char> s3 = {'1' , '1' , '0', '1'};
+//     vector<char> s4 = {'1' , '1' , '1', '1'};
 
-    ret.push_back(s1);
-    ret.push_back(s2);
-    ret.push_back(s3);
-    ret.push_back(s4);
-    int len = 0;
-    findLen(ret, len, 0, 0);
-}
+//     ret.push_back(s1);
+//     ret.push_back(s2);
+//     ret.push_back(s3);
+//     ret.push_back(s4);
+//     int len = 0;
+//     findLen(ret, len, 0, 0);
+// }
