@@ -27,6 +27,10 @@ extern "C" {
     #include "leetcode.h"
 }
 
+
 using namespace std;
+
+int lengthOfLongestSubstring(string s);
+string longestPalindrome(string s);
 
 #endif

@@ -5,4 +5,5 @@
 a.out
 *.a
 leetcode_exec
+.DS_Store
 *.dSYM

@@ -10,5 +10,8 @@
 # include <ctype.h>
 # include <time.h>
 # include <unistd.h>
+#include <stddef.h>
 
 # define leetcode_main main
+
+char* longestPalindrome(char* s);
